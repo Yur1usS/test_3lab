@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-logo">
+        <img
+          class="logo"
+          src="img/logo.png"
+          alt="logo"
+          width="49px"
+          height="50px"
+        />
+        <p class="header-logo-text">MobiFleetix</p>
+      </div>
+      <nav class="mobile-menu">
+        <input type="checkbox" id="burger-toggle" class="burger-toggle" />
+        <label for="burger-toggle" class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line-end"></div>
+        </label>
+        <ul id="navList" class="header-text">
+          <li class="header-text-description"><a href="#main">Головна</a></li>
+          <li class="header-text-description">
+            <a href="#about-us">Про нас</a>
+          </li>
+          <li class="header-text-description">
+            <a href="#Hiw">Як це працює?</a>
+          </li>
+          <li class="header-text-description">
+            <a href="#car-park">Автопарк</a>
+          </li>
+          <li class="header-text-description">
+            <a href="#tariff">Тарифи</a>
+          </li>
+          <li class="header-text-description">
+            <a href="#footer">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-social">
+        <img
+          src="img/instagram.png"
+          alt="instagram"
+          width="37px"
+          height="38px"
+        />
+        <img src="img/telegram.png" alt="telegram" width="33px" height="34px" />
+        <img src="img/facebook.png" alt="facebook" width="33px" height="34px" />
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div id="main">
+        <div class="main-header">
+          <img
+            class="main-header-car"
+            src="img/car(main).jpg"
+            alt="car"
+            width="80px"
+            height="56px"
+          />
+          <h1 class="main-header-text">MOBIFLEETIX</h1>
+        </div>
+
+        <hr class="main-hr" />
+        <p class="main-description">
+          MOBIFLEETIX — ЗРУЧНИЙ ТА ДОСТУПНИЙ СЕРВІС КАРШЕРИНГУ, ЯКИЙ ДОЗВОЛЯЄ
+          ЛЕГКО ОРЕНДУВАТИ АВТО. ЗАБРОНЮЙТЕ МАШИНУ ЗА КІЛЬКА ХВИЛИН І ВИРУШАЙТЕ
+          В ПОДОРОЖ БЕЗ ТУРБОТ ПРО ОБСЛУГОВУВАННЯ ЧИ СТРАХОВКУ
+        </p>
+        <hr class="main-hr" />
+        <div class="main-container">
+          <button id="main-button" class="main-button">
+            <a href="#car-park">Забронювати</a>
+          </button>
+          <img class="main-cars" -- src="img/three-cars.jpg" alt="three-cars" />
+        </div>
+        <div class="main-video">
+          <video controls autoplay loop muted>
+            <source src="video/my_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <!-- About us -->
+      <div id="about-us" class="about-us">
+        <img class="about-us-img" src="img/about us.jpg" alt="two cars" />
+        <div class="about-us-content">
+          <div class="about-us-content-mobile">
+            <h2 class="about-us-header">Оренда авто - MobiFleetix</h2>
+            <p class="about-us-text">
+              Ми пропонуємо вигідний прокат автомобілів по всій Україні за
+              конкурентними цінами. Оренда авто Україна.
+            </p>
+
+            <p class="about-us-description">
+              MobiFleetix народилась із простої ідеї – зробити подорожі Україною
+              легкими та доступними. Засновники, мандруючи країною, зрозуміли,
+              що оренда авто – це той ще квест, тож вирішили це виправити. Зараз
+              ми пропонуємо надійні авто по всій Україні. Наш автопарк завжди в
+              топі, машини – сучасні, сервіс – простий, а головне – ніяких
+              зайвих заморочок. Ми тут, щоб зробити ваші поїздки максимально
+              комфортними і приємними.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- How it works? -->
+      <div id="Hiw" class="Hiw" style="background-image: url(img/city.png)">
+        <div class="Hiw-item1">
+          <img
+            class="Hiw-item1-logo"
+            src="img/Hiw(logo).png"
+            alt="logo"
+            width="150px"
+            height="150px"
+          />
+          <div class="Hiw-main-text">
+            <h2 class="Hiw-main-text-info">Сплануй свою поїздку</h2>
+          </div>
+        </div>
+        <div class="Hiw-item-content">
+          <div class="Hiw-item-all">
+            <div class="Hiw-car">
+              <div class="Hiw-item-car">
+                <img
+                  class="Hiw-item-chat"
+                  src="img/chat.png"
+                  alt="chat"
+                  width="140px"
+                  height="140px"
+                />
+                <img
+                  class="Hiw-item-car-image"
+                  src="img/Hiw(car).png"
+                  alt="car"
+                  width="90px"
+                  height="90px"
+                />
+              </div>
+              <div class="Hiw-item-car-menu">
+                <h3 class="Hiw-item-car-menu-header">Обери авто</h3>
+                <p class="Hiw-item-car-menu-description">
+                  Обирай з трьох доступних <br />
+                  моделей залежно від своїх потреб.
+                </p>
+              </div>
+            </div>
+            <div class="Hiw-operator">
+              <div class="Hiw-item-operator">
+                <img
+                  class="Hiw-item-chat"
+                  src="img/chat.png"
+                  alt="chat"
+                  width="140px"
+                  height="140px"
+                />
+                <img
+                  class="Hiw-item-call-center"
+                  src="img/call-center.png"
+                  alt="call-center"
+                  width="90px"
+                  height="90px"
+                />
+              </div>
+              <div class="Hiw-item-call-center-menu">
+                <h3 class="Hiw-item-call-center-header">
+                  Зв'яжіться з оператором
+                </h3>
+                <p class="Hiw-item-call-center-description">
+                  Наш оператор прийме ваше <br />
+                  замовлення та повідомить про <br />
+                  наявність авто на вибрані дати.
+                </p>
+              </div>
+            </div>
+
+            <div class="Hiw-explore">
+              <div class="Hiw-item-explore">
+                <img
+                  class="Hiw-item-chat"
+                  src="img/chat.png"
+                  alt="chat"
+                  width="140px"
+                  height="140px"
+                />
+                <img
+                  class="Hiw-item-explore-world"
+                  src="img/explore.png"
+                  alt="explore"
+                  width="84px"
+                  height="84px"
+                />
+              </div>
+              <div class="Hiw-item-explore-menu">
+                <h3 class="Hiw-item-explore-header">Досліджуй світ</h3>
+                <p class="Hiw-item-explore-description">
+                  Ваш автомобіль буде готовий у <br />
+                  потрібному місці та в потрібний час <br />
+                  по всій Україні. Насолоджуйтесь <br />
+                  комфортом і свободою подорожей!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car park -->
+      <div id="car-park" class="car-park">
+        <div class="car-park-header">
+          <p class="car-park-header-text">Моделі авто</p>
+          <h2 class="car-park-header-header">Наш автопарк</h2>
+          <p class="car-park-header-description">
+            Ось наші автомобілі, які ви можете орендувати.
+          </p>
+        </div>
+
+        <div class="car-park-main">
+          <div class="car-park-choice">
+            <button class="car-park-choice-lexus">Lexus IS F 2007</button>
+            <button class="car-park-choice-toyota">
+              Toyota Prius Hybrid 2015
+            </button>
+            <button class="car-park-choice-ford">Ford Mustang GT 2011</button>
+          </div>
+          <img class="car-park-car" src="img/car-park(car).jpg" alt="car" />
+          <div class="car-park-choice-end">
+            <div class="car-park-choice-end-text">від 2000 грн/день</div>
+            <button class="car-park-choice-end-request">Запит</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tariff  -->
+      <div id="tariff" class="tariff">
+        <h2 class="tariff-header">Тарифи</h2>
+        <div class="tariff-categories">
+          <div class="tariff-standart">
+            <div class="tariff-categories-standart">Стандарт</div>
+            <div class="tariff-description-standart">
+              <div class="tariff-manage">
+                <div class="tariff-group1">
+                  <p class="tariff-group1-text">Бронювання</p>
+                  <p class="tariff-group1-text">Очікування</p>
+                  <p class="tariff-group1-text">Пауза</p>
+                  <p class="tariff-group1-text">Пробіг</p>
+                  <p class="tariff-group1-text">Період оренди</p>
+                </div>
+                <div class="tariff-group2">
+                  <p class="tariff-group1-text">0 грн/20 хв</p>
+                  <p class="tariff-group1-text">3 грн/хв</p>
+                  <p class="tariff-group1-text">20 грн/год</p>
+                  <p class="tariff-group1-text">5 грн/км</p>
+                  <p class="tariff-group2-text">2 грн/хв</p>
+                  <p class="tariff-group2-text">100 грн/год</p>
+                  <p class="tariff-group2-text">2000 грн/день</p>
+                </div>
+              </div>
+              <img
+                class="tariff-car"
+                src="img/car-standart.jpg"
+                alt="car"
+                width="200px"
+                height="149px"
+              />
+              <button class="tariff-button">Вибрати</button>
+            </div>
+          </div>
+          <div class="tariff-comfort">
+            <div class="tariff-categories-comfort">Комфорт</div>
+            <div class="tariff-description-comfort">
+              <div class="tariff-manage">
+                <div class="tariff-group1">
+                  <p class="tariff-group1-text">Бронювання</p>
+                  <p class="tariff-group1-text">Очікування</p>
+                  <p class="tariff-group1-text">Пауза</p>
+                  <p class="tariff-group1-text">Пробіг</p>
+                  <p class="tariff-group1-text">Період оренди</p>
+                </div>
+                <div class="tariff-group2">
+                  <p class="tariff-group1-text">0 грн/30 хв</p>
+                  <p class="tariff-group1-text">2 грн/хв</p>
+                  <p class="tariff-group1-text">20 грн/год</p>
+                  <p class="tariff-group1-text">7 грн/км</p>
+                  <p class="tariff-group2-text">3 грн/хв</p>
+                  <p class="tariff-group2-text">150 грн/год</p>
+                  <p class="tariff-group2-text">2400 грн/день</p>
+                </div>
+              </div>
+              <img
+                class="tariff-car"
+                src="img/car-comfort.jpg"
+                alt="car"
+                width="200px"
+                height="149px"
+              />
+              <button class="tariff-button">Вибрати</button>
+            </div>
+          </div>
+          <div class="tariff-business">
+            <div class="tariff-categories-business">Бізнес</div>
+            <div class="tariff-description-business">
+              <div class="tariff-manage">
+                <div class="tariff-group1">
+                  <p class="tariff-group1-text">Бронювання</p>
+                  <p class="tariff-group1-text">Очікування</p>
+                  <p class="tariff-group1-text">Пауза</p>
+                  <p class="tariff-group1-text">Пробіг</p>
+                  <p class="tariff-group1-text">Період оренди</p>
+                </div>
+                <div class="tariff-group2">
+                  <p class="tariff-group1-text">0 грн/40 хв</p>
+                  <p class="tariff-group1-text">1 грн/хв</p>
+                  <p class="tariff-group1-text">20 грн/год</p>
+                  <p class="tariff-group1-text">10 грн/км</p>
+                  <p class="tariff-group2-text">5 грн/хв</p>
+                  <p class="tariff-group2-text">230 грн/год</p>
+                  <p class="tariff-group2-text">2800 грн/день</p>
+                </div>
+              </div>
+              <img
+                class="tariff-car"
+                src="img/car-business.jpg"
+                alt="car"
+                width="200px"
+                height="149px"
+              />
+              <button class="tariff-button">Вибрати</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reverse form -->
+      <div class="reverse">
+        <div class="reverse-form-position">
+          <h2 class="reverse-form-header">Маєте питання?</h2>
+          <p class="reverse-form-text">
+            Залиште свій запит у формі, і ми зателефонуємо або <br />
+            напишемо вам для швидкої консультації.
+          </p>
+        </div>
+        <div class="reverse-form-box-position">
+          <div class="reverse-form-box">
+            <form action="#" method="post">
+              <div class="reverse-form-box-name-all">
+                <label for="name" class="reverse-form-box-header"
+                  >Вкажіть ім’я</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="reverse-form-box-container"
+                  placeholder="Ім’я"
+                  required
+                />
+              </div>
+
+              <div class="reverse-form-box-all">
+                <label for="phone" class="reverse-form-box-header"
+                  >Вкажіть телефон</label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="reverse-form-box-container"
+                  placeholder="Телефон"
+                  required
+                />
+              </div>
+
+              <div class="reverse-form-box-all">
+                <label for="email" class="reverse-form-box-header"
+                  >Вкажіть email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="reverse-form-box-container"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div class="reverse-form-box-all">
+                <label for="comment" class="reverse-form-box-header"
+                  >Коментар</label
+                >
+                <textarea
+                  id="comment"
+                  name="comment"
+                  class="reverse-form-box-comment"
+                  placeholder="Коментар"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="reverse-form-button">
+                Надіслати форму
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <div class="footer-manage">
+        <div class="footer-logo">
+          <div class="footer-logo-position">
+            <img
+              class="footer-logo-img"
+              src="img/logo.png"
+              alt="logo"
+              width="60px"
+              height="60px"
+            />
+            <p class="footer-logo-main-text">MobiFleetix</p>
+          </div>
+          <p class="footer-logo-description">
+            MobiFleetix — це зручний і надійний сервіс оренди авто по всій
+            Україні.
+          </p>
+        </div>
+
+        <div class="footer-menu">
+          <h4 class="footer-menu-header">Меню</h4>
+          <div id="navList2" class="footer-menu-position">
+            <p class="footer-menu-list"><a href="#main">Головна</a></p>
+            <p class="footer-menu-list"><a href="#about-us">Про нас</a></p>
+            <p class="footer-menu-list"><a href="#car-park">Автопарк</a></p>
+            <p class="footer-menu-list"><a href="#tariff">Тарифи</a></p>
+            <p class="footer-menu-list"><a href="#Hiw">Як це працює?</a></p>
+            <p class="footer-menu-list"><a href="#footer">Контакти</a></p>
+          </div>
+        </div>
+
+        <div class="footer-contacts">
+          <hr class="footer-hr" />
+          <h4 class="footer-contacts-header">Контакти</h4>
+
+          <div class="footer-contacts-manage">
+            <div class="footer-contacts-items-manage">
+              <img
+                class="footer-contacts-items"
+                src="img/location.png"
+                alt="location"
+                width="24px"
+                height="30px"
+              />
+              <img
+                class="footer-contacts-items"
+                src="img/phone.png"
+                alt="phone"
+                width="24px"
+                height="26px"
+              />
+              <img
+                class="footer-contacts-items"
+                src="img/phone.png"
+                alt="phone"
+                width="24px"
+                height="26px"
+              />
+              <img
+                class="footer-contacts-items"
+                src="img/phone.png"
+                alt="phone"
+                width="24px"
+                height="26px"
+              />
+
+              <div class="footer-contacts-items-mail">
+                <img
+                  class="footer-contacts-items"
+                  src="img/mail.png"
+                  alt="mail"
+                  width="26px"
+                  height="22px"
+                />
+              </div>
+            </div>
+
+            <div class="footer-contacts-list-manage">
+              <p class="footer-contacts-list">
+                м.Львів, вулиця Степана Бандери, 12
+              </p>
+              <p class="footer-contacts-list">+38 (067) 999-99-99</p>
+              <p class="footer-contacts-list">+38 (093) 999-99-99</p>
+              <p class="footer-contacts-list">+38 (050) 999-99-99</p>
+              <p class="footer-contacts-list">info.MobiFleetix@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="footer-social">
+            <h4 class="footer-social-header">Наші соціальні мережі</h4>
+            <div class="footer-social-manage">
+              <img
+                class="footer-social-insta"
+                src="img/instagram.png"
+                alt="instagram"
+                width="24px"
+                height="24px"
+              />
+              <img
+                class="footer-social-tg"
+                src="img/telegram.png"
+                alt="telegram"
+                width="22px"
+                height="22px"
+              />
+              <img
+                class="footer-social-fb"
+                src="img/facebook.png"
+                alt="facebook"
+                width="22px"
+                height="22px"
+              />
+            </div>
+          </div>
+          <hr class="footer-hr" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

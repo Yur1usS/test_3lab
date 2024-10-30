@@ -1,0 +1,2404 @@
+body {
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+  font-size: medium;
+  background-color: #54a0c0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 94px;
+}
+.header-text {
+  margin-top: 36px;
+  padding: 0;
+  margin-bottom: 36px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-text-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 0;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.header-social {
+  margin-left: 0;
+  margin-top: 30px;
+  margin-right: 7%;
+  margin-bottom: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 11px;
+  margin-bottom: 0;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+.header-logo-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #54a0c0;
+}
+
+.burger-toggle {
+  display: none;
+}
+
+.burger {
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: auto;
+}
+
+.line {
+  border-radius: 50px 0 0 50px;
+  height: 7px;
+  width: 100%;
+  background-color: white;
+}
+.line-end {
+  border-radius: 50px 0 0 50px;
+  height: 7px;
+  width: 100%;
+  background-color: white;
+}
+
+ul#navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#navList li {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+ul#navList li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* MAIN */
+
+.main-header {
+  color: #54a0c0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 65px;
+  margin-bottom: 0;
+}
+
+.main-header-car {
+  margin-top: 65px;
+}
+
+.main-header-text {
+  margin-top: 74px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #54a0c0;
+}
+
+.main-hr {
+  margin-top: 0px;
+  border: 7px solid #aac8d8;
+  width: 800px;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.main-description {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  justify-items: center;
+  color: #4d4d4d;
+  margin: 49px 32%;
+}
+
+.main-button {
+  font-weight: 700;
+  font-size: 28px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: #54a0c0;
+  width: 392px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  margin: 43px auto 0 auto;
+  padding-left: 93px;
+  padding-top: 24px;
+  padding-right: 93px;
+  padding-bottom: 24px;
+}
+
+.main-button a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-button:hover {
+  background-color: #2f2f2fd7;
+}
+
+.main-container {
+  text-align: center;
+}
+.main-cars {
+  margin: 43px auto;
+  margin-bottom: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.main-video {
+  width: 100%;
+  margin: 200px auto 0 auto;
+  overflow: hidden;
+}
+
+.main-video video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ABOUT US */
+.about-us {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-us-content {
+  margin-left: 7%;
+  padding-right: 7%;
+}
+
+.about-us-header {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+}
+
+.about-us-text {
+  margin-top: 47px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 7%;
+  color: #000;
+}
+.about-us-description {
+  margin-top: 47px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 7%;
+  color: #000;
+}
+
+.about-us-img {
+  max-width: 50%;
+  height: auto;
+  padding-left: 7%;
+}
+
+/* HOW IT WORKS? */
+
+.Hiw-main-text {
+  margin-top: 25px;
+  background-color: #54a0c0;
+  border-radius: 30px;
+  width: 306px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hiw-main-text-info {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.Hiw-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.Hiw-item-car {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-right: 0;
+}
+
+.Hiw-item-chat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Hiw-item-car-image {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+}
+.Hiw-item-operator {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Hiw-item-chat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Hiw-item-call-center {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+}
+
+.Hiw-item-explore {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Hiw-item-chat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Hiw-item-explore-world {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 84px;
+  height: 84px;
+}
+
+.Hiw-item-all {
+  margin-top: 110px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.Hiw-car,
+.Hiw-operator,
+.Hiw-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Hiw-item-car-menu {
+  border-radius: 30px;
+  width: 288px;
+  height: 132px;
+  background: #54a0c0;
+  margin-left: 0;
+  margin-right: 35px;
+}
+
+.Hiw-item-car-menu-header {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 26px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.Hiw-item-car-menu-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-top: 7px;
+}
+
+.Hiw-item-call-center-menu {
+  border-radius: 30px;
+  width: 288px;
+  height: 132px;
+  background: #54a0c0;
+  margin-left: 0;
+  margin-right: 35px;
+}
+
+.Hiw-item-call-center-header {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 12px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.Hiw-item-call-center-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-top: 7px;
+}
+
+.Hiw-item-explore-menu {
+  border-radius: 30px;
+  width: 288px;
+  height: 132px;
+  background: #54a0c0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Hiw-item-explore-header {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 12px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.Hiw-item-explore-description {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-top: 7px;
+}
+
+.Hiw-item-operator {
+  margin-right: 20px;
+}
+
+.Hiw {
+  width: 100%;
+  height: 984px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+/* CAR PARK */
+
+.car-park {
+  margin-top: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.car-park-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.car-park-header-text {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.car-park-header-header {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #030303;
+  margin-top: 11px;
+  margin-bottom: 0;
+}
+
+.car-park-header-description {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin-top: 12px;
+}
+
+.car-park-choice {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.car-park-choice-lexus {
+  margin-top: 134px;
+  background-color: #b1b1b1;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  width: 246px;
+  height: 32px;
+}
+.car-park-choice-toyota {
+  margin-top: 5px;
+  background-color: #b1b1b1;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  width: 246px;
+  height: 32px;
+}
+.car-park-choice-ford {
+  margin-top: 5px;
+  background-color: #b1b1b1;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  width: 246px;
+  height: 32px;
+}
+
+.car-park-choice-end {
+  display: flex;
+  flex-direction: column;
+  margin-top: 134px;
+  margin-left: 0;
+  margin-right: 100px;
+}
+
+.car-park-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.car-park-choice-end-text {
+  width: 246px;
+  height: 32px;
+  background-color: #b1b1b1;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  display: grid;
+  place-items: center;
+}
+
+.car-park-choice-end-request {
+  background: #54a0c0;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  width: 246px;
+  height: 32px;
+}
+
+.car-park-choice-end-request:hover {
+  background-color: #2f2f2fd7;
+}
+
+.car-park-car {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+}
+
+/* TARIFF */
+
+.tariff {
+  width: 100%;
+  height: auto;
+  background: #ddd;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.tariff-header {
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.tariff-categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 0 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 100px;
+}
+
+.tariff-categories-standart {
+  width: 375px;
+  height: 48px;
+  background-color: #54a0c0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-left: 0;
+  display: grid;
+  place-items: center;
+}
+
+.tariff-categories-comfort {
+  width: 375px;
+  height: 48px;
+  background-color: #54a0c0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.tariff-categories-business {
+  width: 375px;
+  height: 48px;
+  background-color: #54a0c0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-right: 0;
+  display: grid;
+  place-items: center;
+}
+
+.tariff-manage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tariff-description-standart {
+  width: 375px;
+  height: auto;
+  background: #fff;
+  margin-top: 13px;
+}
+
+.tariff-group1 {
+  margin-top: 25px;
+  margin-right: 15%;
+}
+
+.tariff-group2 {
+  margin-top: 25px;
+}
+
+.tariff-group1-text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  height: 10px;
+}
+
+.tariff-group2-text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  height: 5px;
+}
+
+.tariff-car {
+  margin-top: 10px;
+  margin-left: 87px;
+  margin-bottom: 0;
+}
+
+.tariff-button {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: #54a0c0;
+  width: 225px;
+  height: 40px;
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tariff-description-comfort {
+  width: 375px;
+  height: 482px;
+  background: #fff;
+  margin-top: 13px;
+}
+
+.tariff-description-business {
+  width: 375px;
+  height: auto;
+  background: #fff;
+  margin-top: 13px;
+  margin-left: 0;
+}
+
+.tariff-description-standart:hover,
+.tariff-description-comfort:hover,
+.tariff-description-business:hover {
+  background-color: #b1b1b1;
+}
+
+.tariff-button:hover {
+  background-color: #2f2f2fd7;
+}
+
+/* REVERSE FORM */
+.reverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reverse-form-header {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+  margin-top: 200px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.reverse-form-text {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.reverse-form-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reverse-form-box {
+  width: 506px;
+  height: 633px;
+  background: #54a0c0;
+  margin-top: 30px;
+}
+
+.reverse-form-box-position {
+  display: flex;
+  justify-content: center;
+}
+
+.reverse-form-box-container {
+  width: 464px;
+  height: 44px;
+  background: #fff;
+  margin-top: 6px;
+  margin-left: 3.5%;
+  margin-bottom: 0;
+}
+
+.reverse-form-box-header {
+  margin-left: 3.5%;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.reverse-form-box-name-all {
+  padding-top: 45px;
+}
+
+.reverse-form-box-all {
+  margin-top: 11px;
+}
+
+.reverse-form-box-comment {
+  width: 464px;
+  height: 200px;
+  background: #fff;
+  margin-top: 6px;
+  margin-left: 3.5%;
+  margin-bottom: 0;
+}
+
+.reverse-form-button {
+  width: 278px;
+  height: 42px;
+  background: #b1b1b1;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  margin-top: 26px;
+  margin-left: 114px;
+}
+
+.reverse-form-button:hover {
+  background-color: #fff;
+}
+
+.reverse-form-box-container,
+.reverse-form-box-comment {
+  border: none;
+  outline: none;
+}
+
+.reverse-form-box-container:focus,
+.reverse-form-box-comment:focus {
+  outline: none;
+}
+
+.reverse-form-box-container,
+.reverse-form-box-comment {
+  font-weight: 700;
+  font-size: 14px;
+  color: #b1b1b1;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.reverse-form-box-container::placeholder,
+.reverse-form-box-comment::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  background: #54a0c0;
+  margin-top: 200px;
+}
+
+.footer-manage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-logo-position {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11%;
+  align-items: center;
+}
+
+.footer-logo-main-text {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer-logo-description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+  width: 157px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+  padding: 0 23%;
+}
+
+.footer-menu-header {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-menu-list {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  height: 12px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.footer-menu-list a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+.footer-menu-position {
+  margin-top: 16px;
+}
+
+.footer-contacts-list {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  height: 16px;
+  margin-left: 9px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-contacts-header {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-contacts-items {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+.footer-contacts-manage {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-contacts-items-manage {
+  margin-top: 17px;
+}
+
+.footer-contacts-list-manage {
+  margin-top: 27px;
+}
+
+.footer-contacts-items-mail {
+  margin-top: 5px;
+}
+
+.footer-hr {
+  display: none;
+}
+
+.footer-social-header {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .header-text {
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color: #54a0c0;
+    z-index: 100;
+    padding: 0;
+  }
+
+  .burger-toggle:checked + .burger + .header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #54a0c0;
+    margin: 30px 0px;
+  }
+  .header-text-description {
+    margin-right: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  .header-logo-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 0px 92px;
+  }
+
+  .header-social {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 0;
+    height: 38px;
+    width: auto;
+    margin: 15px 0;
+  }
+
+  .line {
+    margin-bottom: 4px;
+  }
+
+  .main-header {
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+  .main-header-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #54a0c0;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  .main-header-car {
+    height: 40px;
+    width: auto;
+    margin-top: 0;
+  }
+  .main-hr {
+    border-top: 4px solid #aac8d8;
+    border-bottom: 4px solid #aac8d8;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .main-description {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #4d4d4d;
+    margin: 24px 10px;
+  }
+
+  .main-container {
+    margin-top: 45px;
+  }
+
+  .main-button {
+    width: 230px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 48px;
+  }
+
+  .main-cars {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 0;
+  }
+
+  .main-video {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-us-header {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+  }
+
+  .about-us-text {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .about-us-description {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .about-us-content {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .about-us-img {
+    max-width: 100%;
+    margin-top: 45px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-us-content-mobile {
+    margin: 0 10px;
+  }
+
+  .Hiw {
+    padding-top: 50px;
+    margin-top: 0;
+    width: 100%;
+    height: 1073px;
+  }
+
+  .Hiw-item1-logo {
+    width: 78px;
+    height: 78px;
+  }
+
+  .Hiw-main-text {
+    border-radius: 30px;
+    width: 300px;
+    height: 49px;
+    margin-top: 12px;
+  }
+
+  .Hiw-main-text-info {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 43px;
+  }
+
+  .Hiw-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hiw-item-all {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hiw-item-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Hiw-item-car {
+    order: 1;
+    margin-top: 50px;
+    margin-right: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .Hiw-item-car-image {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  .Hiw-item-car-menu {
+    margin-top: 12px;
+    order: 2;
+    margin-right: 0;
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+  }
+  .Hiw-item-car-menu-header {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .Hiw-item-car-menu-description {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .Hiw-item-operator {
+    order: 3;
+    margin-top: 25px;
+    margin-right: 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  .Hiw-item-call-center {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+  }
+
+  .Hiw-item-call-center-menu {
+    order: 4;
+    margin-top: 12px;
+    margin-right: 0;
+    width: 300px;
+    height: auto;
+  }
+
+  .Hiw-item-call-center-header {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .Hiw-item-call-center-description {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .Hiw-item-explore {
+    order: 5;
+    margin-right: 0;
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .Hiw-item-explore-world {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+    width: 55px;
+    height: 55px;
+  }
+  .Hiw-item-explore-menu {
+    order: 6;
+    margin-right: 0;
+    margin-top: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+  }
+
+  .Hiw-item-explore-header {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .Hiw-item-explore-description {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .Hiw-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .car-park {
+    margin-top: 100px;
+  }
+
+  .car-park-header-text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+  }
+
+  .car-park-header-header {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #030303;
+  }
+
+  .car-park-header-description {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #010101;
+  }
+
+  .car-park-car {
+    height: 211px;
+    width: 100%;
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .car-park-main {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .car-park-choice {
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .car-park-choice-lexus {
+    margin: 0;
+  }
+
+  .car-park-choice-end {
+    margin-top: 25px;
+    margin-right: 0;
+    align-items: center;
+  }
+  .car-park-choice-end-request {
+    width: 196px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .car-park-choice-end-text {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    width: 196px;
+    height: 22px;
+  }
+
+  .car-park-choice-lexus {
+    width: 150px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+  }
+
+  .car-park-choice-toyota {
+    width: 250x;
+    height: 30px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+  }
+
+  .car-park-car {
+    max-width: 70%;
+    height: auto;
+    align-items: center;
+    margin-left: 15%;
+  }
+
+  .car-park-choice-ford {
+    width: 150px;
+    height: 30px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+  }
+
+  .tariff {
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+  }
+
+  .tariff-header {
+    padding: 0;
+    margin-top: 0;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 0;
+  }
+
+  .tariff-categories {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .tariff-categories-standart {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 284px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tariff-description-standart {
+    margin-top: 0;
+    width: 284px;
+    height: auto;
+  }
+
+  .tariff-group1-text {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+  .tariff-group2-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .tariff-car {
+    display: none;
+  }
+
+  .tariff-button {
+    width: 130px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .tariff-categories-comfort {
+    margin: 30px 0 0 0;
+    width: 284px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .tariff-description-comfort {
+    width: 284px;
+    height: 245px;
+    margin-top: 0;
+  }
+
+  .tariff-categories-business {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 284px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tariff-description-business {
+    margin-top: 0;
+    width: 284px;
+    height: auto;
+  }
+
+  .tariff-description-comfort {
+    margin-left: 0;
+  }
+
+  .tariff-description-business {
+    margin-left: 0;
+  }
+
+  .tariff-business {
+    margin-bottom: 50px;
+  }
+
+  .reverse-form-header {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+  }
+
+  .reverse-form-text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+  }
+  .reverse-form-box {
+    margin-top: 50px;
+    width: 360px;
+    height: auto;
+  }
+  .reverse-form-box-name-all {
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  .reverse-form-box-header {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .reverse-form-box-container {
+    width: 316px;
+    height: 27px;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+
+  .reverse-form-box-comment {
+    width: 316px;
+    height: 170px;
+    margin-left: 5%;
+    margin-top: 0;
+  }
+
+  .reverse-form-button {
+    width: 198px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    margin-top: 25px;
+    margin-left: 81px;
+    margin-bottom: 25px;
+    padding: 6px 23px;
+  }
+
+  .footer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-menu {
+    order: 1;
+    margin-top: 40px;
+    margin-right: 0;
+    padding: 0 35px;
+  }
+
+  .footer-contacts {
+    order: 2;
+    margin-top: 13px;
+    margin-bottom: 0;
+  }
+  .footer-logo {
+    order: 3;
+  }
+  .footer-menu-list {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 7px 10px;
+  }
+
+  .footer-menu-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 9px;
+    margin-bottom: 0;
+  }
+
+  .footer-menu-header {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-hr {
+    display: flex;
+    border: 1px solid #fff;
+    width: 360px;
+    height: 0px;
+  }
+
+  .footer-contacts-header {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer-contacts-items {
+    width: 22px;
+    height: 21px;
+  }
+
+  .footer-contacts-items-mail {
+    margin-top: 0;
+  }
+
+  .footer-contacts-list {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-contacts-manage {
+    justify-content: center;
+  }
+
+  .footer-contacts-list-manage {
+    margin-top: 20px;
+  }
+  .footer-contacts-items-manage {
+    margin-top: 10px;
+  }
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-social-manage {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  .footer-social-header {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .footer-social-insta {
+    margin-right: 10px;
+    width: 23px;
+    height: 24px;
+  }
+  .footer-social-tg {
+    margin-right: 10px;
+    width: 22px;
+    height: 23px;
+  }
+
+  .footer-social-fb {
+    width: 21px;
+    height: 23px;
+  }
+
+  .footer-logo {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footer-logo-position {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .footer-logo-img {
+    margin-left: 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-logo-main-text {
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .footer-logo-description {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 0 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .footer-manage {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 0;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .header-text {
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color: #54a0c0;
+    z-index: 100;
+    padding: 0;
+  }
+
+  .burger-toggle:checked + .burger + .header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #54a0c0;
+    margin: 30px 0;
+  }
+  .header-text-description {
+    margin-right: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  .header-logo-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 0px 200px;
+  }
+
+  .header-social {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 0;
+    height: 38px;
+    width: auto;
+    margin: 15px 0;
+  }
+
+  .line {
+    margin-bottom: 4px;
+  }
+  .main-header {
+    margin-top: 0;
+  }
+  .main-description {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #4d4d4d;
+    margin: 25px 100px;
+  }
+
+  .main-button {
+    width: 350px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 48px;
+  }
+  .main-video {
+    margin-top: 100px;
+  }
+  .main-hr {
+    width: 100%;
+    margin: 0;
+    border-top: 4px solid #aac8d8;
+    border-bottom: 4px solid #aac8d8;
+    border-left: 0;
+    border-right: 0;
+  }
+  .about-us {
+    margin-top: 100px;
+  }
+
+  .about-us-img {
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .about-us-content {
+    margin-left: 4%;
+    padding-right: 4%;
+  }
+
+  .about-us-description {
+    margin: 20px 0 0 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .about-us-text {
+    margin: 20px 0 0 0;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+  }
+
+  .about-us-header {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+  }
+  .Hiw-item-car-menu,
+  .Hiw-item-call-center-menu,
+  .Hiw-item-explore-menu {
+    width: 230px;
+    height: auto;
+  }
+
+  .Hiw-item-car-menu-header,
+  .Hiw-item-call-center-header,
+  .Hiw-item-explore-header {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .Hiw-item-car-menu-description,
+  .Hiw-item-call-center-description,
+  .Hiw-item-explore-description {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .Hiw-item-car-menu-header {
+    margin-top: 14px;
+  }
+
+  .car-park {
+    margin: 100px 0;
+  }
+  .car-park-car {
+    max-width: 50%;
+  }
+  .car-park-choice-end-text {
+    width: 200px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+  }
+  .car-park-choice-end {
+    margin-right: 0;
+  }
+  .car-park-choice-end-request {
+    width: 200px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .car-park-choice-lexus {
+    width: 200px;
+    height: auto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+  }
+  .car-park-choice-toyota {
+    width: 200px;
+    height: auto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+  }
+  .car-park-choice-ford {
+    width: 200px;
+    height: auto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .car-park-main {
+    margin-left: 5%;
+  }
+  .car-park-choice {
+    margin-left: 0;
+  }
+
+  .tariff {
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+  }
+
+  .tariff-header {
+    padding: 0;
+    margin-top: 0;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 0;
+  }
+
+  .tariff-categories {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .tariff-categories-standart {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 284px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tariff-description-standart {
+    margin-top: 0;
+    width: 284px;
+    height: auto;
+  }
+
+  .tariff-group1-text {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+  .tariff-group2-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .tariff-car {
+    display: none;
+  }
+
+  .tariff-button {
+    width: 130px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .tariff-categories-comfort {
+    margin: 30px 0 0 0;
+    width: 284px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .tariff-description-comfort {
+    width: 284px;
+    height: 245px;
+    margin-top: 0;
+  }
+
+  .tariff-categories-business {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 284px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tariff-description-business {
+    margin-top: 0;
+    width: 284px;
+    height: auto;
+  }
+
+  .tariff-description-comfort {
+    margin-left: 0;
+  }
+
+  .tariff-description-business {
+    margin-left: 0;
+  }
+
+  .tariff-business {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-menu {
+    order: 1;
+    margin-top: 40px;
+    margin-right: 0;
+    padding: 0 35px;
+  }
+
+  .footer-contacts {
+    order: 2;
+    margin-top: 13px;
+    margin-bottom: 0;
+  }
+  .footer-logo {
+    order: 3;
+  }
+  .footer-menu-list {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 7px 10px;
+  }
+
+  .footer-menu-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 9px;
+    margin-bottom: 0;
+  }
+
+  .footer-menu-header {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-hr {
+    display: flex;
+    border: 1px solid #fff;
+    width: 360px;
+    height: 0px;
+  }
+
+  .footer-contacts-header {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer-contacts-items {
+    width: 22px;
+    height: 21px;
+  }
+
+  .footer-contacts-items-mail {
+    margin-top: 0;
+  }
+
+  .footer-contacts-list {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-contacts-manage {
+    justify-content: center;
+  }
+
+  .footer-contacts-list-manage {
+    margin-top: 20px;
+  }
+  .footer-contacts-items-manage {
+    margin-top: 10px;
+  }
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-social-manage {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  .footer-social-header {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .footer-social-insta {
+    margin-right: 10px;
+    width: 23px;
+    height: 24px;
+  }
+  .footer-social-tg {
+    margin-right: 10px;
+    width: 22px;
+    height: 23px;
+  }
+
+  .footer-social-fb {
+    width: 21px;
+    height: 23px;
+  }
+
+  .footer-logo {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footer-logo-position {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .footer-logo-img {
+    margin-left: 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-logo-main-text {
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .footer-logo-description {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 0 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .footer-manage {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 0;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1001px) {
+  .header-logo {
+    margin-left: 8%;
+  }
+  .header-social {
+    margin-right: 8%;
+  }
+  .main-header {
+    margin-top: 0;
+  }
+  .main-description {
+    margin: 25px 28%;
+  }
+  .main-video {
+    margin-top: 100px;
+  }
+  .about-us {
+    margin-top: 100px;
+  }
+  .about-us-img {
+    width: 50%;
+    height: auto;
+  }
+  .about-us-content {
+    margin-left: 4%;
+  }
+  .about-us-header {
+    margin-bottom: 0;
+  }
+  .about-us-text {
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .about-us-description {
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .car-park {
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .car-park-car {
+    max-width: 50%;
+  }
+  .car-park-main {
+    margin: 0;
+  }
+
+  .tariff {
+    width: 100%;
+    height: auto;
+    background: #ddd;
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+  .tariff-header {
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+  }
+
+  .tariff-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px 0 0 0;
+    gap: 3%;
+  }
+
+  .tariff-categories-standart,
+  .tariff-categories-comfort,
+  .tariff-categories-business {
+    width: 300px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+  }
+
+  .tariff-description-standart,
+  .tariff-description-comfort,
+  .tariff-description-business {
+    width: 300px;
+    height: auto;
+  }
+
+  .tariff-car {
+    margin: 10px auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .tariff-button {
+    margin-left: 0;
+    margin-top: 10px;
+    margin: 20px auto;
+    width: 200px;
+    margin-left: 17%;
+  }
+  .reverse-form-header {
+    margin-top: 100px;
+  }
+  .footer {
+    margin-top: 100px;
+  }
+  .footer-menu {
+    padding: 0 15%;
+  }
+}
